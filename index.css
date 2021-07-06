@@ -36,11 +36,21 @@ nav {
   display: block;
   color: black;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
 }
 #menue ul > li > a:hover,
 #contact {
+  background: linear-gradient(
+    to right,
+    rgb(87, 233, 123),
+    rgba(55, 247, 97, 0.603)
+  );
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#menue ul > li > #contact {
   background: linear-gradient(
     to right,
     rgb(87, 233, 123),
@@ -56,9 +66,19 @@ nav {
   width: 100%;
   /* background: red; */
 }
-#top-left h1,
-p {
+#top-left {
+  width: 100%;
+}
+#top-left h1 {
   padding: 15px;
+}
+#top-right img {
+  height: 100%;
+  width: 50%;
+  margin-left: 300px;
+}
+#midlle-left img {
+  height: 100%;
 }
 #middle-right a,
 #top-left a {
@@ -68,10 +88,20 @@ p {
     rgba(114, 233, 67, 0.61)
   );
   padding: 10px;
+  margin-left: 15px;
   text-decoration: none;
   color: rgb(24, 22, 22);
 
   border-radius: 20px;
+}
+#top-left p,
+#middle-right p {
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+#middle-right h1 {
+  margin-left: 20px;
 }
 
 h1 span {
@@ -80,13 +110,15 @@ h1 span {
 #middle {
   display: flex;
   height: 400px;
-  background-color: #cccccc;
-  background-image: src("images/image1.jpg");
+  /* background-color: #cccccc; */
+  background-image: url("../food_cart/images/middle.jpg");
 }
-
+#middle-right {
+  margin-top: 100px;
+  margin-left: 300px;
+}
 /* bottom section  */
-#bottom-top h2,
-p {
+#bottom-top h2 {
   text-align: center;
   padding: 20px;
 }
@@ -121,7 +153,7 @@ p {
 }
 #project {
   padding-left: 100px;
-  padding-right: 150px;
+  padding-right: 200px;
   text-align: center;
 }
 footer {
