@@ -5,6 +5,7 @@
 body {
   width: 95%;
   margin: auto;
+  font-family: "Poppins", sans-serif;
 }
 /* navbar start */
 nav {
@@ -24,7 +25,7 @@ nav {
 #menue ul {
   list-style-type: none;
   margin-top: 5px;
-  padding-left: 300px;
+  padding-left: 250px;
 }
 #menue ul > li {
   float: left;
@@ -41,29 +42,32 @@ nav {
 }
 #menue ul > li > a:hover,
 #contact {
-  background: linear-gradient(
+ background: linear-gradient(
     to right,
-    rgb(87, 233, 123),
-    rgba(55, 247, 97, 0.603)
+    rgb(223, 191, 9),
+    rgba(212, 94, 15, 0.603)
   );
-  padding: 10px;
-  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
 }
 
 #menue ul > li > #contact {
   background: linear-gradient(
     to right,
-    rgb(87, 233, 123),
-    rgba(55, 247, 97, 0.603)
+    rgb(223, 191, 9),
+    rgba(212, 94, 15, 0.603)
   );
-  padding: 10px;
-  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
 }
-
+/* top part start */
 #top {
   display: flex;
   height: 400px;
   width: 100%;
+  margin-top: 10px;
   /* background: red; */
 }
 #top-left {
@@ -77,15 +81,16 @@ nav {
   width: 50%;
   margin-left: 300px;
 }
+/* middle part start */
 #midlle-left img {
   height: 100%;
 }
 #middle-right a,
 #top-left a {
   background-image: linear-gradient(
-    to right,
-    rgb(21, 87, 15),
-    rgba(114, 233, 67, 0.61)
+    to left,
+    rgba(182, 12, 12, 0.719),
+    rgba(223, 10, 10, 0.966)
   );
   padding: 10px;
   margin-left: 15px;
@@ -156,6 +161,7 @@ p {
   padding-right: 200px;
   text-align: center;
 }
+/* footer part */
 footer {
   height: 200px;
   background: black;
